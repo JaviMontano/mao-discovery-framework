@@ -1,97 +1,111 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:122562,100:137DC5&height=220&section=header&text=MAO%20Discovery%20Framework&fontSize=38&fontColor=FFD700&fontAlignY=35&desc=M%C3%A9todo%20%2B%20Tecnolog%C3%ADA%20%3D%20Soberan%C3%ADa&descSize=16&descColor=ffffff&descAlignY=55" width="100%" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:122562,100:137DC5&height=180&section=header&text=MAO%20Discovery%20Framework&fontSize=36&fontColor=FFFFFF&fontAlignY=35&desc=M%C3%A9todo%20%2B%20TecnologIA%20%3D%20Soberan%C3%ADa&descSize=14&descAlignY=55&descColor=BBA0CC">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:122562,100:137DC5&height=180&section=header&text=MAO%20Discovery%20Framework&fontSize=36&fontColor=FFFFFF&fontAlignY=35&desc=M%C3%A9todo%20%2B%20TecnologIA%20%3D%20Soberan%C3%ADa&descSize=14&descAlignY=55&descColor=BBA0CC" width="100%">
+</picture>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/versi%C3%B3n-1.0.0-137DC5?style=for-the-badge" alt="Versión" />
-  <img src="https://img.shields.io/badge/licencia-GPL--3.0-blue?style=for-the-badge" alt="Licencia" />
-  <img src="https://img.shields.io/badge/agentes-102-FFD700?style=for-the-badge&labelColor=1E3258" alt="Agentes" />
-  <img src="https://img.shields.io/badge/skills-214-BBA0CC?style=for-the-badge&labelColor=1E3258" alt="Skills" />
-  <img src="https://img.shields.io/badge/comandos-109-808080?style=for-the-badge&labelColor=1E3258" alt="Comandos" />
+  <img src="https://img.shields.io/badge/v1.4.0-FFD700?style=flat-square" alt="v1.4.0">
+  <img src="https://img.shields.io/badge/GPL--3.0-22D3EE?style=flat-square" alt="GPL--3.0">
+  <img src="https://img.shields.io/badge/102_agentes-6366F1?style=flat-square" alt="102 agentes">
+  <img src="https://img.shields.io/badge/214_skills-8B5CF6?style=flat-square" alt="214 skills">
+  <img src="https://img.shields.io/badge/109_comandos-10B981?style=flat-square" alt="109 comandos">
 </p>
+
+# MAO Discovery Framework
+
+> Método + TecnologIA = Soberanía
+
+Framework universal de discovery para profesionales de la era IA. Pipeline de 6 fases con comité dinámico de expertos, gates de calidad y protocolo cero alucinación.
 
 ---
 
-## Descripción
+## 🚀 Instalación Rápida
 
-**MAO Discovery Framework** es un framework universal de discovery para profesionales de la era IA. Implementa un pipeline de 6 fases con comité dinámico de expertos, gates de calidad, y protocolo cero alucinación. De la pregunta del cliente a la propuesta validada.
-
-> **102 agentes** · **214 skills** · **109 comandos**
-
----
-
-## Instalación
-
-Agrega como plugin de Claude Code:
-
-```json
-{
-  "mcpServers": {
-    "mao": {
-      "command": "claude",
-      "args": ["mcp", "serve", "--plugin", "mao-discovery-framework"]
-    }
-  }
-}
+```bash
+git clone https://github.com/JaviMontano/mao-discovery-framework.git ~/.claude/plugins/mao-discovery-framework
 ```
 
----
+## 🔑 Qué Hace
 
-## Características Principales
+- Pipeline de 6 fases de discovery
+- Comité dinámico de 48 agentes expertos
+- Protocolo Cero Alucinación con etiquetas de evidencia
+- Puertas de Calidad G0-G3
+- RAG Priming Engine
+- Output multi-formato (MD/HTML/DOCX/XLSX/PPTX)
 
-| Característica | Descripción |
-| --- | --- |
-| **6 fases de discovery** | Pipeline estructurado de principio a fin |
-| **Comité dinámico de expertos** | 48 agentes que se activan según el contexto |
-| **Zero-Hallucination Protocol** | Cada afirmación respaldada por evidencia verificable |
-| **Quality Gates G0-G3** | Puertas de calidad progresivas en cada fase |
-| **RAG Priming Engine** | Carga inteligente de contexto por relevancia |
-| **Output multi-formato** | MD, HTML, DOCX, XLSX, PPTX según la necesidad |
-
----
-
-## Pipeline de Discovery
+## 📐 Arquitectura
 
 ```
-Fase 0: Priming          ─── Carga de contexto y calibración
-Fase 1: Exploración       ─── Análisis del territorio del cliente
-Fase 2: Diagnóstico       ─── Evaluación de estado actual (AS-IS)
-Fase 3: Diseño           ─── Arquitectura de solución (TO-BE)
-Fase 4: Validación        ─── Factibilidad y riesgos
-Fase 5: Entrega           ─── Propuesta, roadmap y handover
+Fase 0 (Seguridad) → Fase 1 (AS-IS) → Fase 2 (Flujos) → Fase 3 (Escenarios) → Fase 4 (Roadmap) → Fase 5 (Entrega)
 ```
 
----
+## 🔗 Parte del Ecosistema MetodologIA
 
-## Autor
+| Repo | Descripción |
+|------|-------------|
+| [**mao-pm-apex**](https://github.com/JaviMontano/mao-pm-apex) | PM APEX |
+| [**mao-sdd**](https://github.com/JaviMontano/mao-sdd) | SDD |
+| [**mao-sovereign-architect**](https://github.com/JaviMontano/mao-sovereign-architect) | Sovereign Architect |
+| [**playbook-forge**](https://github.com/JaviMontano/playbook-forge) | Playbook Forge |
 
-<p align="center">
-  <img src="https://github.com/ejemplo-deo-repo/mao-brand-assets/blob/main/team_javier-montano.webp?raw=true" width="120" style="border-radius: 50%;" alt="Javier Montaño" />
-</p>
+## 👤 Autor
 
-<p align="center">
-  <strong>Javier Montaño</strong><br/>
-  PreSales Architect · Fundador de MetodologIA · JM Labs<br/>
-  <a href="https://github.com/JaviMontano">github.com/JaviMontano</a>
-</p>
+<img src="https://github.com/ejemplo-deo-repo/mao-brand-assets/blob/main/team_javier-montano.webp?raw=true" width="80" align="left" style="margin-right:1rem;">
 
----
+**Javier Montaño** — Founder MetodologIA<br>
+40.000 horas convirtiendo retos en casos de éxito.<br>
+[GitHub](https://github.com/JaviMontano) · [MetodologIA](https://metodologia.info) · [LinkedIn](https://co.linkedin.com/in/javier-andr%C3%A9s-monta%C3%B1o-guzm%C3%A1n-35b02756/en)
 
-## Parte del Ecosistema MetodologIA / JM Labs
+<br clear="both">
 
-| Repositorio | Descripción |
-| --- | --- |
-| [mao-pm-apex](https://github.com/JaviMontano/mao-pm-apex) | Gestión de proyectos agéntica |
-| [mao-sdd](https://github.com/JaviMontano/mao-sdd) | Desarrollo dirigido por especificación |
-| [mao-sovereign-architect](https://github.com/JaviMontano/mao-sovereign-architect) | Liderazgo técnico basado en evidencia |
-| [playbook-forge](https://github.com/JaviMontano/playbook-forge) | Generador de playbooks interactivos |
+## 📄 Licencia
+
+GPL-3.0 — © 2026 MetodologIA. Copyleft — Para uso y aprovechamiento de profesionales en la era de la IA.
 
 ---
 
-<p align="center">
-  Creado por <a href="https://github.com/JaviMontano">Javier Montaño</a> · MetodologIA · GPL-3.0
-</p>
+<details>
+<summary><b>🇬🇧 English</b></summary>
+<br>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:122562,100:137DC5&height=120&section=footer" width="100%" />
-</p>
+# MAO Discovery Framework
+
+> Method + TechnologIA = Sovereignty
+
+Universal discovery framework for AI-era professionals. 6-phase pipeline with dynamic expert committee, quality gates, and zero-hallucination protocol.
+
+### What It Does
+
+- 6-phase discovery pipeline
+- Dynamic committee of 48 expert agents
+- Zero-Hallucination Protocol with evidence tags
+- Quality Gates G0-G3
+- RAG Priming Engine
+- Multi-format output (MD/HTML/DOCX/XLSX/PPTX)
+
+### Architecture
+
+```
+Phase 0 (Security) → Phase 1 (AS-IS) → Phase 2 (Flows) → Phase 3 (Scenarios) → Phase 4 (Roadmap) → Phase 5 (Delivery)
+```
+
+### Part of the MetodologIA Ecosystem
+
+| Repo | Description |
+|------|-------------|
+| [**mao-pm-apex**](https://github.com/JaviMontano/mao-pm-apex) | PM APEX |
+| [**mao-sdd**](https://github.com/JaviMontano/mao-sdd) | SDD |
+| [**mao-sovereign-architect**](https://github.com/JaviMontano/mao-sovereign-architect) | Sovereign Architect |
+| [**playbook-forge**](https://github.com/JaviMontano/playbook-forge) | Playbook Forge |
+
+---
+
+<sub>Created by <a href="https://github.com/JaviMontano">Javier Montaño</a> · MetodologIA · GPL-3.0</sub>
+
+</details>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:122562,100:137DC5&height=100&section=footer">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:122562,100:137DC5&height=100&section=footer" width="100%">
+</picture>
